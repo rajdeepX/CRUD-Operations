@@ -1,0 +1,28 @@
+.table-container {
+  margin: 50px;
+}
+
+table {
+  /* background-color: blue; */
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+.thead-row th {
+  color: yellow;
+  padding: 20px;
+}
+
+thead tr,
+tbody tr {
+  border-bottom: 1px solid white;
+}
+
+.tbody-row td {
+  margin-bottom: 30px;
+  padding: 15px 0;
+}

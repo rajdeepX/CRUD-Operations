@@ -1,0 +1,69 @@
+form {
+  margin: 50px;
+}
+h2 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.form {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.email-container,
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+input {
+  height: 2.25rem;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.email-p {
+  font-size: 0.75rem;
+  color: rgb(216, 216, 216);
+  margin-top: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-submit {
+  font-size: 1rem;
+  padding: 7px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  color: greenyellow;
+}
